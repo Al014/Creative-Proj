@@ -1,12 +1,14 @@
 <template>
-<div class="companies">
-</div>
+  <CompanyCreator />
 </template>
 
 <script>
-import axios from 'axios';
+import CompanyCreator from '@/components/CompanyCreator.vue';
 export default {
   name: 'Companies',
+  components: {
+    CompanyCreator
+  },
   data() {
     return {
     }

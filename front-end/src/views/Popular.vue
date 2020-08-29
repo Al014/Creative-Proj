@@ -1,12 +1,14 @@
 <template>
-<div class="popular">
-</div>
+<CarCreator />
 </template>
 
 <script>
-import axios from 'axios';
+import CarCreator from '@/components/CarCreator.vue';
 export default {
   name: 'Popular',
+  components: {
+    CarCreator
+  },
   data() {
     return {
     }
